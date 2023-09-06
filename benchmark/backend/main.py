@@ -17,7 +17,7 @@ from agbenchmark.utils.utils import find_absolute_benchmark_path
 app = FastAPI()
 
 origins = ["http://localhost:3000"]
-
+test = "random_change"
 app.add_middleware(
     CORSMiddleware,
     allow_origins=origins,
